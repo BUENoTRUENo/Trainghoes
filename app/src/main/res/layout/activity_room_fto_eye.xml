@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RoomFtoEye">
+
+    <TextView
+        android:id="@+id/seclook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONDIRM 2nd room"
+        android:textColor="@color/design_default_color_secondary"
+        android:textSize="33sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="52sp"
+        android:layout_marginTop="350sp"
+        />
+
+    <Button
+        android:id="@+id/eyetoeye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GET TO EYE 2"
+        android:textSize="22sp"
+        android:textColor="@color/design_default_color_secondary"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="110sp"
+        android:layout_marginTop="100sp"
+        />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
