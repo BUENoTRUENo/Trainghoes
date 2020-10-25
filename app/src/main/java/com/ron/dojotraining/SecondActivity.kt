@@ -12,8 +12,7 @@ class SecondActivity : AppCompatActivity() {
 
         val byuton : Button =findViewById(R.id.superbutton)
         byuton .setOnClickListener {
-            //startActivity(Intent(this,CcActivity::class.java))
-            startActivity(EyeLastpoint.newIntent(this))
+            startActivity(Intent(this,CcActivity::class.java))
         }
     }
 }
