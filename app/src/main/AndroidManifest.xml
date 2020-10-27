@@ -9,11 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DojoTraining">
-        <activity android:name=".EyeLastpoint"></activity>
-        <activity android:name=".RoomGtoeye" />
-        <activity android:name=".RoomFtoEye" />
-        <activity android:name=".RoomEtoEye" />
-        <activity android:name=".Efg" />
+        <activity android:name=".LastActivity"></activity>
+        <activity android:name=".GActivity" />
+        <activity android:name=".FActivity" />
+        <activity android:name=".EActivity" />
+        <activity android:name=".HhActivity" />
         <activity android:name=".Ddactivty" />
         <activity android:name=".CcActivity" />
         <activity android:name=".SecondActivity" />

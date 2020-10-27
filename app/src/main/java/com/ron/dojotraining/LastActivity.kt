@@ -5,11 +5,11 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class EyeLastpoint : AppCompatActivity() {
+class LastActivity : AppCompatActivity() {
 
     companion object{
-        fun newIntent(context:Context):Intent{
-           val intent=Intent(context,EyeLastpoint::class.java)
+        fun hoeassbugga(context:Context):Intent{
+           val intent=Intent(context,LastActivity::class.java)
             return intent
         }
 
