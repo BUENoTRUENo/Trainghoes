@@ -5,14 +5,14 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class SecondActivity : AppCompatActivity() {
+class GActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_second)
+        setContentView(R.layout.activity_room_gtoeye)
 
-        val byuton : Button =findViewById(R.id.superbutton)
-        byuton .setOnClickListener {
-            startActivity(Intent(this,CcActivity::class.java))
+        val thewayout : Button =findViewById(R.id.mango)
+        thewayout .setOnClickListener {
+            startActivity(Intent(this,LastActivity::class.java))
         }
     }
 }

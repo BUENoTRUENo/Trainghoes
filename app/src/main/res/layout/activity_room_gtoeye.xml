@@ -4,7 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RoomGtoeye">
+    tools:context=".GActivity">
+
+    <TextView
+        android:id="@+id/marmalade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Third room lockets"
+        android:textSize="35sp"
+        android:textColor="@color/design_default_color_secondary_variant"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <Button
+        android:id="@+id/mango"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="True way out"
+        android:textColor="@color/design_default_color_secondary_variant"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf="@id/marmalade"
+        app:layout_constraintStart_toStartOf="@id/marmalade"
+        app:layout_constraintEnd_toEndOf="@id/marmalade"
+        />
 
 
 

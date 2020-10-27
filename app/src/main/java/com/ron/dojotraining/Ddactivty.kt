@@ -12,22 +12,22 @@ class Ddactivty : AppCompatActivity() {
 
         val firstbooty : Button =findViewById(R.id.firstmist)
         firstbooty .setOnClickListener {
-            startActivity(Intent(  this,RoomEtoEye::class.java))
+            startActivity(Intent(  this,EActivity::class.java))
         }
 
         val secbooty : Button =findViewById(R.id.segunda)
         secbooty .setOnClickListener {
-            startActivity(Intent( this,RoomFtoEye::class.java))
+            startActivity(Intent( this,FActivity::class.java))
         }
 
         val thirdbooty : Button =findViewById(R.id.thirdccc)
         thirdbooty .setOnClickListener {
-            startActivity(Intent( this,RoomGtoeye::class.java))
+            startActivity(Intent( this,GActivity::class.java))
         }
 
         val fouthbooty : Button =findViewById(R.id.fourthcorner)
         fouthbooty .setOnClickListener {
-            startActivity(Intent(this,Efg::class.java))
+            startActivity(Intent(this,HhActivity::class.java))
         }
     }
 }

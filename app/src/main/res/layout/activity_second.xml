@@ -5,11 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SecondActivity">
+
     <TextView
         android:id="@+id/hypelogo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="HYPERION STORE"
+        android:text="STORE"
         android:elevation="3dp"
         android:textSize="50sp"
         android:textColor="@android:color/holo_red_light"
@@ -34,10 +35,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="NEXT"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="24dp"
-        android:layout_marginRight="24dp"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf="@id/hypelogo"
+        app:layout_constraintStart_toStartOf="@id/hypelogo"
+        app:layout_constraintEnd_toEndOf="@id/hypelogo"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

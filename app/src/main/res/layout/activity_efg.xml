@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Efg">
+    tools:context=".HhActivity">
 
     <TextView
         android:id="@+id/focalpointy"
@@ -20,14 +20,15 @@
         />
 
     <Button
-        android:id="@+id/otherpoints"
+        android:id="@+id/fact_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="choices"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="454dp"
-        android:layout_marginLeft="150dp"
+        app:layout_constraintStart_toStartOf="@id/focalpointy"
+       app:layout_constraintTop_toBottomOf="@id/focalpointy"
+        app:layout_constraintEnd_toEndOf="@id/focalpointy"
+
+
         />
 
         
