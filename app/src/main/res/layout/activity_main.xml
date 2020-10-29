@@ -12,7 +12,6 @@
         android:layout_height="wrap_content"
         android:text="Terms and Condition"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.564"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -21,8 +20,9 @@
         android:id="@+id/ubber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="confirm your age by pushing the button"
-        android:textSize="32sp"
+        android:text="confirm your age"
+        android:textStyle="bold"
+        android:textSize="25sp"
         android:textColor="@android:color/holo_blue_light"
         app:layout_constraintBottom_toTopOf="@id/ref_point"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,11 +32,44 @@
         android:id="@+id/fuckinbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="confirm"
+        android:text="@string/confirm"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/ref_point"
         android:layout_marginTop="70dp"
         />
+
+    <Switch
+        android:id="@+id/toddlelearn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="@dimen/outside_wall_spacing"
+        android:layout_marginTop="@dimen/outside_wall_spacing"
+        />
+
+    <RadioButton
+        android:id="@+id/radswitchy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="@dimen/outside_wall_spacing"
+        android:layout_marginTop="@dimen/outside_wall_spacing"
+        />
+
+    <CheckBox
+        android:id="@+id/checkingshitout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/fuckinbutton"
+        app:layout_constraintEnd_toEndOf="@id/fuckinbutton"
+        app:layout_constraintBottom_toTopOf="@id/fuckinbutton"
+        />
+
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
